@@ -524,7 +524,7 @@ variable "autolink_references" {
 variable "vulnerability_alerts" {
   type        = bool
   description = "(Optional) Set to `false` to disable security alerts for vulnerable dependencies. Enabling requires alerts to be enabled on the owner level."
-  default     = null
+  default     = true
 }
 
 variable "archive_on_destroy" {
